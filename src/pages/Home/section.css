@@ -312,3 +312,29 @@
     font-weight: 600;
 }
 /* End Section 5 */
+
+/* Section 6 */
+.section6 {
+    padding: 60px;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8324.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.section6__wrap {
+    text-align: center;
+}
+
+.section6__wrap img {
+    border-radius: 50%;
+    width: 120px;
+    object-fit: cover;
+}
+
+.section6__desc {
+    margin-top: 10px ;
+    font-size: 24px;
+    color: var(--color-text);
+}
+/* End Section 6 */

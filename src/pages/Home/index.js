@@ -137,6 +137,17 @@ const Home = () => {
                 </div>
             </div>
             {/* End Section 5 */}
+
+            {/* Section 6 */}
+            <div className="section6">
+                <div className="container">
+                    <div className="section6__wrap">
+                        <img src="https://cdn.pixabay.com/photo/2024/02/02/04/20/men-8547227_1280.png"  alt="anh-6"/>
+                        <div className="section6__desc wow bounceInUp">"Peace does not mean one where no noise, no trouble, and no toil. When we are in a storm, we still feel the calm of mind. That is the real meaning of peace!"</div>
+                    </div>
+                </div>
+            </div>
+            {/* End Section 6 */}
         </>
     )
 }
