@@ -211,3 +211,45 @@
     margin-bottom: -5px;
 }
 /* End Section 3 */
+
+/* Section 4 */
+.section4 {
+    padding: 80px 0;
+}
+
+.section4__title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-main);
+    margin-bottom: 30px;
+}
+
+.section4__desc {
+    font-size: 18px;
+    color: var(--color-text);
+    margin-bottom: 30px;
+}
+
+.section4__icon {
+    font-size: 24px;
+    color: var(--color-highlight);
+    
+    text-align: center;
+}
+
+.section4__list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section4__keyword {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: var(--color-text);
+}
+
+.section4__keyword span {
+    margin-left: 4px;
+}
+/* End Section 4 */
