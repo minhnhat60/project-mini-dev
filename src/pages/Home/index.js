@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="container">
                     <div className="section1__wrap">
                         <div className="section1__sub-title">Developer Company</div>
-                        <div className="section1__title">Spacespeakers</div>
+                        <div className="section1__title wow bounceInLeft" data-wow-duration="2s">Spacespeakers</div>
                         <div className="section1__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, assumenda aperiam.</div>
                         <div className="section1__button">
                             <ButtonServices />
@@ -34,15 +34,15 @@ const Home = () => {
                             <div className="section2__title">Best Business <br />
                             Software Solution</div>
                             <div className="section2__list">
-                                <div className="section2__item">
+                                <div className="section2__item wow bounceInRight" data-wow-duration="1s" >
                                     <FaFire className="section2__icon" />
                                     <span>faith</span>
                                 </div>
-                                <div className="section2__item">
+                                <div className="section2__item wow bounceInRight" data-wow-duration="2s" >
                                     <FaIcons className="section2__icon"/>
                                     <span>symphony</span>
                                 </div>
-                                <div className="section2__item">
+                                <div className="section2__item wow bounceInRight" data-wow-duration="3s" >
                                     <FaBalanceScale className="section2__icon"/>
                                     <span>balance</span>
                                 </div>
@@ -76,22 +76,22 @@ const Home = () => {
             <div className="section4">
                 <div className="container">
                     <div className="section4__wrap">
-                        <div className="section4__title">Our Goal</div>
+                        <div className="section4__title wow zoomInDown">Our Goal</div>
                         <div className="section4__desc">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
                             Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
                             Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
                             The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. <FaRegHandLizard />
                         </div>
                         <div className="section4__list">
-                            <div className="section4__keyword">
+                            <div className="section4__keyword wow bounceIn" data-wow-delay="1s">
                                 <FaRegHandshake />
                                 <span>cooperative</span>
                             </div>
-                            <div className="section4__keyword">
+                            <div className="section4__keyword wow bounceIn" data-wow-delay="1s">
                                 <FaCrosshairs />
                                 <span>Usage</span>
                             </div>
-                            <div className="section4__keyword">
+                            <div className="section4__keyword wow bounceIn" data-wow-delay="1s">
                                 <FaRoute />
                                 <span>rapid</span>
                             </div>
@@ -100,6 +100,8 @@ const Home = () => {
                 </div>
             </div>
             {/* End Section 4 */}
+
+
         </>
     )
 }
