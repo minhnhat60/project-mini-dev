@@ -101,7 +101,42 @@ const Home = () => {
             </div>
             {/* End Section 4 */}
 
-
+            {/* Section 5 */}
+            <div className="section5">
+                <div className="container">
+                    <h2>Core Features</h2>
+                    <div className="section5__wrap">
+                        <div className="section5__box">
+                            <div className="section5__image">
+                                <img src="https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/images/c/d/8/a/cd8a381d6d71608aa617b1a5f0e393f5.jpg" alt="anh-5"/>
+                            </div>
+                            <div className="section5__content">
+                                <div className="section5__sub-title">Software, Interface</div>
+                                <div className="section5__title">Software, Interface</div>
+                            </div>
+                        </div>
+                        <div className="section5__box">
+                            <div className="section5__image">
+                                <img src="https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/images/c/d/8/a/cd8a381d6d71608aa617b1a5f0e393f5.jpg" alt="anh-5"/>
+                            </div>
+                            <div className="section5__content">
+                                <div className="section5__sub-title">Software, Interface</div>
+                                <div className="section5__title">Software, Interface</div>
+                            </div>
+                        </div>
+                        <div className="section5__box">
+                            <div className="section5__image">
+                                <img src="https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/images/c/d/8/a/cd8a381d6d71608aa617b1a5f0e393f5.jpg" alt="anh-5"/>
+                            </div>
+                            <div className="section5__content">
+                                <div className="section5__sub-title">Software, Interface</div>
+                                <div className="section5__title">Software, Interface</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* End Section 5 */}
         </>
     )
 }
