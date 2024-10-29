@@ -6,6 +6,7 @@ import { FaBalanceScale, FaFire, FaIcons } from "react-icons/fa";
 const Home = () => {
     return (
         <>
+            {/* Section 1 */}
             <div className="section1">
                 <div className="container">
                     <div className="section1__wrap">
@@ -19,7 +20,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* End Section 1 */}
 
+            {/* Section 2 */}
             <div className="section2">
                 <div className="container">
                     <div className="section2__wrap">
@@ -51,6 +54,25 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* End Section 2 */}
+
+            {/* Section 3 */}
+            <div className="section3">
+                <div className="container">
+                    <div className="section3__wrap">
+                        <div className="section3__content">
+                            <div className="section3__desc">APP Download</div>
+                            <div className="section3__title">You can control direct from your mobile.</div>
+                        </div>
+                        <div className="section3__image">
+                            <img src="https://mensfolio.vn/wp-content/uploads/2022/07/4.jpg" alt="anh-3" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* End Section 3 */}
+
+
         </>
     )
 }

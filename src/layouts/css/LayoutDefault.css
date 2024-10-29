@@ -41,6 +41,13 @@
     display: flex;
 }
 
+.header__menu ul li .active {
+    background-color: #fff;
+    color: var(--color-text);
+    font-weight: 700;
+    filter: drop-shadow(0.10em 0.10em 0.10em var(--color-highlight));
+}
+
 .header__menu-text {
     font-size: 20px;
     font-weight: 600;
