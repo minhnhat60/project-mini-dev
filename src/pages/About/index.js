@@ -1,4 +1,5 @@
 const About = () => {
+    
     return (
         <>
             <h2>Trang giới thiệu</h2>

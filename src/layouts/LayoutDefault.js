@@ -1,5 +1,6 @@
 import { FaFacebookF, FaGithub, FaInstagram } from "react-icons/fa";
 import { Link, NavLink, Outlet } from "react-router-dom";
+import ButtonScrollToTop from "../components/ButtonScrollToTop";
 import "./css/LayoutDefault.css";
 
 const LayoutDefault = () => {
@@ -39,7 +40,7 @@ const LayoutDefault = () => {
             </header>
 
             <Outlet />
-
+            <ButtonScrollToTop />
             <footer className='footer'>
                 Copyright 60F-Technology
             </footer>

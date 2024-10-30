@@ -1,9 +1,10 @@
 .section1 {
     background-image: url(https://scontent.fsgn2-9.fna.fbcdn.net/v/t1.6435-9/162329670_303044191417628_2051451618967829976_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=b895b5&_nc_ohc=wJ1ZT9qX2PsQ7kNvgG0nIg0&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=A85NE1Nj4Q9joahznqXt2lB&oh=00_AYBR-WIy_D4oFafNmiw9Nska9Iy1expFWgfeGIaC4K80AA&oe=6747D0ED);
-    padding: 160px 0;
+    padding: 20vh 0;
     background-size: contain;
     background-attachment: fixed;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 .section1::before {
@@ -40,11 +41,12 @@
     color: #ffffffa9;
     font-style: italic;
     font-weight: 500;
+    margin-top: 160px;
 }
 
 .section1__button {
     display: flex;
-    margin-top: 140px;
+    margin-top: 10px;
 }
 
 .button {

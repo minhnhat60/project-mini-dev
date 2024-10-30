@@ -1,0 +1,14 @@
+.button-scroll-up {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: var(--color-main);
+    border-radius: 50%;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
+}
