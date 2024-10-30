@@ -1,0 +1,43 @@
+/* Logo */
+
+body {
+    background: var(--color-main);
+}
+
+.logo-ss {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.logo-ss:hover {
+    filter: drop-shadow(0.20em 0.40em 0.20em var(--color-text));
+}
+
+.logo-ss img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* End Logo */
+.section1__about {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.section1__about__image {
+    text-align: center;
+}
+
+.section1__about__image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.section1__about__desc {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 30px;
+    /* white-space: pre-wrap; */
+}
