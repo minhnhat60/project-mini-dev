@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="container">
                     <div className="section1__wrap">
                         <div className="section1__sub-title">Developer Company</div>
-                        <div className="section1__title wow bounceInLeft" data-wow-duration="2s">Spacespeakers</div>
+                        <div className="section1__title wow bounceInLeft" data-wow-duration="2s">Refund Gaming</div>
                         <div className="section1__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, assumenda aperiam.</div>
                         <div className="section1__button">
                             <ButtonServices />
@@ -27,7 +27,7 @@ const Home = () => {
                 <div className="container">
                     <div className="section2__wrap">
                         <div className="section2__image">
-                            <img src="https://cdn.dribbble.com/userupload/17156373/file/original-43ea200769741e48f6840cd3e20e4448.jpg?resize=752x1064" alt="anh-2"/> 
+                            <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/450113498_1026314822176943_308841034370943739_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GrjhW9cmRAQQ7kNvgGsmX9a&_nc_zt=23&_nc_ht=scontent.fsgn2-4.fna&_nc_gid=AonaiP3WD-5zkiF1n_E9jiy&oh=00_AYAGDEN-zz_EC0Qa6MBBW69HF7ZtUtOvYfyJrIqCnh4PHQ&oe=6728214A" alt="anh-2"/> 
                         </div>
                         <div className="section2__content">
                             <h2 className="section2__sub-title">Core Features</h2>
@@ -65,7 +65,7 @@ const Home = () => {
                             <div className="section3__title">You can control direct from your mobile.</div>
                         </div>
                         <div className="section3__image">
-                            <img src="https://mensfolio.vn/wp-content/uploads/2022/07/4.jpg" alt="anh-3" />
+                            <img src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t1.6435-9/197873531_341128757362223_6795130401607966436_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1Ua0WwVa04oQ7kNvgFmtuHK&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AR2r4ewTxyci0C0H6RVzvN_&oh=00_AYBKxb3s1njlOMrKJ10-rkm5IvTQZjc1RxerOsR5V0d26A&oe=6749B79A" alt="anh-3" />
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ const Home = () => {
                     <div className="section5__wrap">
                         <div className="section5__box">
                             <div className="section5__image">
-                                <img src="https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/images/c/d/8/a/cd8a381d6d71608aa617b1a5f0e393f5.jpg" alt="anh-5"/>
+                                <img src="https://kenh14cdn.com/thumb_w/660/2020/6/13/1-1592023373570180003821.jpg" alt="anh-5"/>
                             </div>
                             <div className="section5__content">
                                 <div className="section5__sub-title">Software, Interface</div>
@@ -117,7 +117,7 @@ const Home = () => {
                         </div>
                         <div className="section5__box">
                             <div className="section5__image">
-                                <img src="https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/images/c/d/8/a/cd8a381d6d71608aa617b1a5f0e393f5.jpg" alt="anh-5"/>
+                                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/35329589_1801781806606273_7272532010508222464_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_ohc=WAzhJ5kwYX4Q7kNvgHv62qY&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=A9ba8OL4-ceFxgBwoJ2yKTx&oh=00_AYBkmoErimzSbEAb89TixeZGLiJ68r8jJyk1SZKCHOn6dg&oe=6749B67C" alt="anh-5"/>
                             </div>
                             <div className="section5__content">
                                 <div className="section5__sub-title">Software, Interface</div>
@@ -126,7 +126,7 @@ const Home = () => {
                         </div>
                         <div className="section5__box">
                             <div className="section5__image">
-                                <img src="https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/images/c/d/8/a/cd8a381d6d71608aa617b1a5f0e393f5.jpg" alt="anh-5"/>
+                                <img src="https://kenh14cdn.com/thumb_w/660/2020/6/13/2-1592023373572511525278.jpg" alt="anh-5"/>
                             </div>
                             <div className="section5__content">
                                 <div className="section5__sub-title">Software, Interface</div>
@@ -142,7 +142,7 @@ const Home = () => {
             <div className="section6">
                 <div className="container">
                     <div className="section6__wrap">
-                        <img src="https://cdn.pixabay.com/photo/2024/02/02/04/20/men-8547227_1280.png"  alt="anh-6"/>
+                        <img src="https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/240520132_223710849596421_8162529490628608743_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=uSUSXHcKN3QQ7kNvgHgZhSi&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=AzzzFuiCs3KdzrGD-iPLPi5&oh=00_AYBQqH7tR3_Pmxo8No3xDD7h-Osy0qmtltj6icQ5lpSL7A&oe=67282817"  alt="anh-6"/>
                         <div className="section6__desc wow bounceInUp">"Peace does not mean one where no noise, no trouble, and no toil. When we are in a storm, we still feel the calm of mind. That is the real meaning of peace!"</div>
                     </div>
                 </div>

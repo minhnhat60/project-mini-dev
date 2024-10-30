@@ -20,19 +20,22 @@
 }
 
 .header__logo img {
-    width: 80px;
+    width: 120px;
     height: auto;
-    filter: drop-shadow(0.40em 0.40em 0.2em var(--color-main));
+    border-radius: 50%;
+
 }
 
 .header__logo img:hover {
-    filter: drop-shadow(0.40em 0.40em 0.2em var(--color-highlight));
+    filter: drop-shadow(0.40em 0.40em 0.2em var(--color-main));
 }
 
 .header__logo span {
     font-size: 26px;
     font-weight: 700;
     color: var(--color-main);
+    filter: drop-shadow(0.40em 0.40em 0.2em var(--color-main));
+
 }
 
 .header__menu ul {

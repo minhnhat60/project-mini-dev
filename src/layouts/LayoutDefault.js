@@ -2,6 +2,7 @@ import { FaFacebookF, FaGithub, FaInstagram } from "react-icons/fa";
 import { Link, NavLink, Outlet } from "react-router-dom";
 import ButtonScrollToTop from "../components/ButtonScrollToTop";
 import "./css/LayoutDefault.css";
+import logo from "./images/logo-refund.png";
 
 const LayoutDefault = () => {
     return (
@@ -9,8 +10,8 @@ const LayoutDefault = () => {
             <header className="header">
                 <div className='header__wrap'>
                     <div className='header__logo'>
-                        <Link to="/"><img src='https://upload.wikimedia.org/wikipedia/commons/2/22/SPACESPEAKERS_Logo.png' alt='Logo' /></Link>
-                        <span>SPACESPEAKERS</span>
+                        <Link to="/"><img src={logo} alt='Logo' /></Link>
+                        <span>REFUND GAMING</span>
                     </div>
                     <div className='header__menu'>
                         <ul>

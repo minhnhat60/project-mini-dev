@@ -1,5 +1,6 @@
 import "./section.css";
 import { Link } from "react-router-dom";
+import logo from "../../layouts/images/logo-refund.png";
 
 const About = () => {
     
@@ -8,7 +9,7 @@ const About = () => {
             {/* Logo */}
             <div className="logo-ss">
                 <div className="container">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/SPACESPEAKERS_Logo.png" alt="Logo" />
+                    <img src={logo} alt="Logo" />
                 </div>
             </div>
 

@@ -1,7 +1,7 @@
 .section1 {
-    background-image: url(https://scontent.fsgn2-9.fna.fbcdn.net/v/t1.6435-9/162329670_303044191417628_2051451618967829976_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=b895b5&_nc_ohc=wJ1ZT9qX2PsQ7kNvgG0nIg0&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=A85NE1Nj4Q9joahznqXt2lB&oh=00_AYBR-WIy_D4oFafNmiw9Nska9Iy1expFWgfeGIaC4K80AA&oe=6747D0ED);
-    padding: 20vh 0;
-    background-size: contain;
+    background-image: url(https://topnguoinoitieng.com/storage/images/EzhB1BoyaN_1628614324.jpg);
+    padding: 25vh 0;
+    background-size: cover;
     background-attachment: fixed;
     position: relative;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 .section1::before {
     position: absolute;
     content: "";
-    background: #26161626;
+    background: #00000026;
     top: 0;
     left: 0;
     width: 100%;
@@ -260,7 +260,7 @@
 
 /* Section 5 */
 .section5 {
-    padding: 60px;
+    padding: 80px;
     background-color: var(--bg-1);
 }
 
@@ -289,20 +289,21 @@
 }
 
 .section5__box {
-    width: 30%;
+    width: 40vh;
+    height: 700;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
 .section5__image {
     width: 100%;
-    height: auto;
+    height: 450px;
     margin-bottom: 10px;
 }
 
 .section5__image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .section5__content {
