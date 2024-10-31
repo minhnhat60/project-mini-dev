@@ -1,8 +1,12 @@
 import "./section.css";
 import { Link } from "react-router-dom";
 import logo from "../../layouts/images/logo-refund.png";
+import { useEffect } from "react";
 
 const About = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     
     return (
         <>

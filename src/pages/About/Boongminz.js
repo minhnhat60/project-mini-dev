@@ -2,8 +2,12 @@ import "./AboutArtists.css";
 import { FaFacebookSquare, FaInstagram, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import ButtonGoBack from "../../components/ButtonGoBack";
+import { useEffect } from 'react';
 
 const Boongminz = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <>
             {/* Information */}

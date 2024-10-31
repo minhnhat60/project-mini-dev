@@ -2,9 +2,13 @@ import "./ServicesCompany.css";
 import { FaAcquisitionsIncorporated, FaMicrophone, FaTeamspeak } from "react-icons/fa";
 import { GiArchBridge, GiDuality, GiFlowerStar, GiUprising } from "react-icons/gi";
 import picture3 from "./images/pic-services.jpg";
+import { useEffect } from "react";
 
 
 const ServicesCompany = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     const handleFocus = (event) => {
         event.target.style.backgroundColor = `aliceblue`;

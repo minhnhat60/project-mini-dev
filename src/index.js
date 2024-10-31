@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter scrollBehavior={() => ({behavior: 'smooth', block: 'start'})}>
+  <BrowserRouter scrollBehavior={() => ({ top: 0 })}>
     <App />
   </BrowserRouter>
 
