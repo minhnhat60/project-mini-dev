@@ -35,7 +35,7 @@ const About = () => {
                         <div className="section2__about__list">
                             <div className="section2__about__item wow flip" data-wow-duration="1s">
                                 <div className="section2__about__image">
-                                    <Link>
+                                    <Link to="/about/QNT">
                                         <img src="https://kenh14cdn.com/203336854389633024/2021/3/28/photo-1-1616888000513548991779.jpg" alt="anh-1" />
                                     </Link>
                                 </div>
