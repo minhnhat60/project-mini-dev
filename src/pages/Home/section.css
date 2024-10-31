@@ -64,14 +64,22 @@
 }
 
 .button-highlight {
-    background: var(--color-highlight);
+    /* background: var(--color-highlight);
+    border-color: var(--color-highlight); */
     margin-right: 16px;
-    border-color: var(--color-highlight);
+    background-image: linear-gradient(to right, var(--color-highlight) 0%, #FFFFFF  51%, #e6dfd8  100%);
+    background-size: 200% auto;
+    color: var(--color-main);            
+    box-shadow: 0 0 20px #eee;
 }
 
 .button-highlight:hover {
-    background-color: #FFF;
-    border-color: var(--color-highlight);
+    background-position: right center;
+    color: var(--color-main);
+     
+    
+    /* background-color: #FFF;
+    border-color: var(--color-highlight); */
 }
 
 .button-outline-highlight {
@@ -82,7 +90,8 @@
 
 .button-outline-highlight:hover {
     color: var(--color-main);
-    background: var(--color-highlight);
+    /* background: var(--color-highlight); */
+    background-image: linear-gradient(to right, var(--color-highlight) 51%, #e6dfd8  100%);
 }
 
 /* section2 */

@@ -1,4 +1,7 @@
 import "./ServicesCompany.css";
+import { FaAcquisitionsIncorporated, FaMicrophone, FaTeamspeak } from "react-icons/fa";
+import { GiArchBridge, GiDuality, GiUprising } from "react-icons/gi";
+
 
 const ServicesCompany = () => {
     return (
@@ -9,7 +12,9 @@ const ServicesCompany = () => {
                     <div className="section1__services__wrap">
                         <div className="section1__services__content">
                             <div className="section1__services__title">Về chúng tôi</div>
-                            <div className="section1__services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+                            <div className="section1__services__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            This book is a treatise on the theory of ethics, very popular during the Renaissance.
+                            </div>
                         </div>
                         <div className="section1__services__image">
                             <img src="https://gamek.mediacdn.vn/zoom/600_315/133514250583805952/2023/5/17/avatar1684308183881-16843081842051920563911.png" alt="anh-1" />
@@ -18,6 +23,61 @@ const ServicesCompany = () => {
                 </div>
             </div>
             {/* End Section 1 */}
+
+            {/* Section 2 */}
+            <div className="section2__services">
+                <div className="container">
+                    <div className="section2__services__sub-title">Tư vấn dịch vụ</div>
+                    <div className="section2__services__title">DỊCH VỤ CỦA CHÚNG TÔI</div>
+                    <div className="section2__services__list">
+                        <div className="section2__services__wrap">
+                            <div className="section2__services__item">
+                                <FaTeamspeak className="section2__services__icon"/>
+                                <div className="section2__services__info">
+                                    <span className="section2__services__name">live stream</span>
+                                    <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
+                                </div>
+                            </div>
+                            <div className="section2__services__item">
+                                <GiDuality className="section2__services__icon" />
+                                <div className="section2__services__info">
+                                    <span className="section2__services__name">dual ranking</span>
+                                    <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
+                                </div>
+                            </div>
+                            <div className="section2__services__item">
+                                <GiUprising className="section2__services__icon" />
+                                <div className="section2__services__info">
+                                    <span className="section2__services__name">flexible ranking</span>
+                                    <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
+                                </div>
+                            </div>
+                            <div className="section2__services__item">
+                                <FaAcquisitionsIncorporated className="section2__services__icon" />
+                                <div className="section2__services__info">
+                                    <span className="section2__services__name">tft</span>
+                                    <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
+                                </div>
+                            </div>
+                            <div className="section2__services__item">
+                                <GiArchBridge className="section2__services__icon" />
+                                <div className="section2__services__info">
+                                    <span className="section2__services__name">aram</span>
+                                    <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
+                                </div>
+                            </div>
+                            <div className="section2__services__item">
+                                <FaMicrophone className="section2__services__icon" />
+                                <div className="section2__services__info">
+                                    <span className="section2__services__name">sing</span>
+                                    <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* End Section 2 */}
         </>
     )
 }
