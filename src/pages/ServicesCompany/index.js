@@ -5,6 +5,13 @@ import picture3 from "./images/pic-services.jpg";
 
 
 const ServicesCompany = () => {
+
+    const handleFocus = (event) => {
+        event.target.style.backgroundColor = `aliceblue`;
+    }
+    const handleBlur = (event) => {
+        event.target.style.backgroundColor = "White";
+    }
     return (
         <>
             {/* Section 1 */}
@@ -89,13 +96,13 @@ const ServicesCompany = () => {
                             <span>ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</span></div>
                             <hr />
                             <form className="section3__services__form">
-                                <input type="text" name="name" placeholder="Nhập tên..." required></input>
-                                <input type="email" name="email" placeholder="Email"></input>
+                                <input onFocus={handleFocus} onBlur={handleBlur} type="text" name="name" placeholder="Nhập tên..." required></input>
+                                <input onFocus={handleFocus} onBlur={handleBlur} type="email" name="email" placeholder="Email"></input>
                                 
-                                <input type="number" name="phone" placeholder="Số điện thoại"></input>
-                                <input name="address" placeholder="Địa chỉ"></input>
+                                <input onFocus={handleFocus} onBlur={handleBlur} type="number" name="phone" placeholder="Số điện thoại"></input>
+                                <input onFocus={handleFocus} onBlur={handleBlur} name="address" placeholder="Địa chỉ"></input>
                                 
-                                <textarea rows={5} placeholder="Nội dung ngắn gọn"></textarea>
+                                <textarea onFocus={handleFocus} onBlur={handleBlur} rows={5} placeholder="Nội dung ngắn gọn"></textarea>
 
                                 <button className="button button__services">Tư vấn</button>
                             </form>
