@@ -1,6 +1,7 @@
 import "./ServicesCompany.css";
 import { FaAcquisitionsIncorporated, FaMicrophone, FaTeamspeak } from "react-icons/fa";
-import { GiArchBridge, GiDuality, GiUprising } from "react-icons/gi";
+import { GiArchBridge, GiDuality, GiFlowerStar, GiUprising } from "react-icons/gi";
+import picture3 from "./images/pic-services.jpg";
 
 
 const ServicesCompany = () => {
@@ -78,6 +79,34 @@ const ServicesCompany = () => {
                 </div>
             </div>
             {/* End Section 2 */}
+
+            {/* Section 3 */}
+            <div className="section3__services">
+                <div className="section3__services__wrap">
+                    <div className="section3__services__content">
+                        <div className="section3__services__register">
+                            <div className="section3__services__title"><GiFlowerStar />
+                            <span>ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</span></div>
+                            <hr />
+                            <form className="section3__services__form">
+                                <input type="text" name="name" placeholder="Nhập tên..." required></input>
+                                <input type="email" name="email" placeholder="Email"></input>
+                                
+                                <input type="number" name="phone" placeholder="Số điện thoại"></input>
+                                <input name="address" placeholder="Địa chỉ"></input>
+                                
+                                <textarea rows={5} placeholder="Nội dung ngắn gọn"></textarea>
+
+                                <button className="button button__services">Tư vấn</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div className="section3__services__image">
+                        <img src={picture3} alt="anh-3" />
+                    </div>
+                </div>
+            </div>
+            {/* End Section 3 */}
         </>
     )
 }
