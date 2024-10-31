@@ -34,15 +34,15 @@ const Home = () => {
                             <div className="section2__title">Best Business <br />
                             Software Solution</div>
                             <div className="section2__list">
-                                <div className="section2__item wow bounceInRight" data-wow-duration="1s" >
+                                <div className="section2__item wow bounceInRight" data-wow-duration="1s" data-wow-delay="1s" >
                                     <FaFire className="section2__icon" />
                                     <span>faith</span>
                                 </div>
-                                <div className="section2__item wow bounceInRight" data-wow-duration="2s" >
+                                <div className="section2__item wow bounceInRight" data-wow-duration="2s" data-wow-delay="1s" >
                                     <FaIcons className="section2__icon"/>
                                     <span>symphony</span>
                                 </div>
-                                <div className="section2__item wow bounceInRight" data-wow-duration="3s" >
+                                <div className="section2__item wow bounceInRight" data-wow-duration="3s" data-wow-delay="1s" >
                                     <FaBalanceScale className="section2__icon"/>
                                     <span>balance</span>
                                 </div>
@@ -143,7 +143,7 @@ const Home = () => {
                 <div className="container">
                     <div className="section6__wrap">
                         <img src="https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/240520132_223710849596421_8162529490628608743_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=uSUSXHcKN3QQ7kNvgHgZhSi&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=AzzzFuiCs3KdzrGD-iPLPi5&oh=00_AYBQqH7tR3_Pmxo8No3xDD7h-Osy0qmtltj6icQ5lpSL7A&oe=67282817"  alt="anh-6"/>
-                        <div className="section6__desc wow bounceInUp">"Peace does not mean one where no noise, no trouble, and no toil. When we are in a storm, we still feel the calm of mind. That is the real meaning of peace!"</div>
+                        <div className="section6__desc wow bounceInLeft" data-wow-delay="2s">"Peace does not mean one where no noise, no trouble, and no toil. When we are in a storm, we still feel the calm of mind. That is the real meaning of peace!"</div>
                     </div>
                 </div>
             </div>

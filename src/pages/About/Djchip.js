@@ -3,7 +3,7 @@ import { FaFacebookSquare, FaInstagram, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import ButtonGoBack from "../../components/ButtonGoBack";
 
-const Qnt = () => {
+const Djchip = () => {
     return (
         <>
             {/* Information */}
@@ -11,11 +11,11 @@ const Qnt = () => {
                 <div className="container-3">
                     <div className="info__wrap">
                         <div className="info__image">
-                            <img src="https://kenh14cdn.com/203336854389633024/2021/3/28/photo-1-1616888000513548991779.jpg" alt="qnt" />
+                            <img src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/1/18/5-16109300277531061844160.jpg" alt="djchip" />
                         </div>
                         <div className="info__content">
-                            <div className="info__career">Rapper/Streamer</div>
-                            <div className="info__nickname">QNT</div>
+                            <div className="info__career">DJ/Streamer</div>
+                            <div className="info__nickname">DJ Chip</div>
                             <div className="info__social">
                                 <Link to=""><FaYoutube /></Link>
                                 <Link to=""><FaFacebookSquare /></Link>
@@ -24,7 +24,7 @@ const Qnt = () => {
                             <h2>
                                 <strong>
                                     About 
-                                    QNT
+                                    DJ Chip
                                 </strong>
                             </h2>
                             <p>
@@ -46,4 +46,4 @@ const Qnt = () => {
     )
 }
 
-export default Qnt;
+export default Djchip;

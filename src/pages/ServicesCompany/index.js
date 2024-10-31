@@ -39,42 +39,42 @@ const ServicesCompany = () => {
                     <div className="section2__services__title">DỊCH VỤ CỦA CHÚNG TÔI</div>
                     <div className="section2__services__list">
                         <div className="section2__services__wrap">
-                            <div className="section2__services__item">
+                            <div className="section2__services__item wow bounceInUp">
                                 <FaTeamspeak className="section2__services__icon"/>
                                 <div className="section2__services__info">
                                     <span className="section2__services__name">live stream</span>
                                     <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
                                 </div>
                             </div>
-                            <div className="section2__services__item">
+                            <div className="section2__services__item wow bounceInUp">
                                 <GiDuality className="section2__services__icon" />
                                 <div className="section2__services__info">
                                     <span className="section2__services__name">dual ranking</span>
                                     <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
                                 </div>
                             </div>
-                            <div className="section2__services__item">
+                            <div className="section2__services__item wow bounceInUp">
                                 <GiUprising className="section2__services__icon" />
                                 <div className="section2__services__info">
                                     <span className="section2__services__name">flexible ranking</span>
                                     <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
                                 </div>
                             </div>
-                            <div className="section2__services__item">
+                            <div className="section2__services__item wow bounceInUp">
                                 <FaAcquisitionsIncorporated className="section2__services__icon" />
                                 <div className="section2__services__info">
                                     <span className="section2__services__name">tft</span>
                                     <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
                                 </div>
                             </div>
-                            <div className="section2__services__item">
+                            <div className="section2__services__item wow bounceInUp">
                                 <GiArchBridge className="section2__services__icon" />
                                 <div className="section2__services__info">
                                     <span className="section2__services__name">aram</span>
                                     <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
                                 </div>
                             </div>
-                            <div className="section2__services__item">
+                            <div className="section2__services__item wow bounceInUp">
                                 <FaMicrophone className="section2__services__icon" />
                                 <div className="section2__services__info">
                                     <span className="section2__services__name">sing</span>
