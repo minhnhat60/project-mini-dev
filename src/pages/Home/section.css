@@ -400,6 +400,7 @@
 
 .section4__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -419,6 +420,7 @@
         padding: 80px 40px;
     }
 }
+
 /* End Section 4 */
 
 /* Section 5 */
@@ -450,6 +452,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 .section5__box {
@@ -486,6 +490,7 @@
     }
 
     .section5__wrap {
+        align-items: center;
         justify-content: center;
     }
 
@@ -507,7 +512,7 @@
 
 @media (max-width: 575.98px) {
     .section5__box {
-        margin-right: 0;
+        margin: 0 20px 20px 20px;
         width: 60vw
     }
 }

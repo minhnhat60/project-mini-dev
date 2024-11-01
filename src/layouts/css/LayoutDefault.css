@@ -86,7 +86,11 @@
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-
+@media (max-width: 575.98px) {
+    .header {
+        padding: 0px;
+    }
+}
 /*  */
 .header__bar {
     font-size: 32px;
@@ -368,6 +372,17 @@
 
     .footer__top__map iframe:hover {
         box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+}
+
+@media (max-width: 456.98px) {
+    .footer__top {
+        padding: 120px 20px;
+    }
+
+    .footer__top__map {
+        width: 90%;
+        height: 350px;
     }
 }
 
