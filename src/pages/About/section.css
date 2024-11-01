@@ -19,11 +19,11 @@
 /* Section 1 */
 .section1__about {
     margin-top: 60px;
-    width: 100%;
 }
 
 .section1__about__image {
     text-align: center;
+    width: 100%;
 }
 
 .section1__about__image img {
@@ -38,6 +38,22 @@
     color: #FFF;
     line-height: 30px;
     /* white-space: pre-wrap; */
+}
+
+@media (max-width: 1199.98px) {
+    .section1__about {
+        padding: 0 40px;
+    }
+
+    .section1__about__image {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section2__about h2 {
+        font-size: 36px!important;
+    }
 }
 
 /* End section 1 */
