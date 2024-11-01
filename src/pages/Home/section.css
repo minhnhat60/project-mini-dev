@@ -1,3 +1,4 @@
+/* Section 1 */
 .section1 {
     background-image: url(https://topnguoinoitieng.com/storage/images/EzhB1BoyaN_1628614324.jpg);
     padding: 25vh 0;
@@ -94,6 +95,55 @@
     background-image: linear-gradient(to right, var(--color-highlight) 51%, #e6dfd8  100%);
 }
 
+@media (max-width: 1668.98px) {
+    .section1 {
+        background-image: url(https://topnguoinoitieng.com/storage/images/EzhB1BoyaN_1628614324.jpg);
+        padding: 30vh 0 20vh 40px;
+        background-size: cover;
+        background-attachment: local;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .section1 {
+        background-size: cover;
+        background-attachment: local;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    .section1 {
+        background-size: cover;
+        background-position: center;
+        background-attachment: local;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section1__button {
+        display: block;
+    }
+
+    .section1__desc {
+        margin-bottom: 20px;
+        color: #FFF;
+    }
+
+    .button {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+}
+
+/* End Section 1 */
+
 /* section2 */
 .section2 {
     padding: 80px 0;
@@ -102,6 +152,7 @@
 
 .section2__wrap {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -138,6 +189,7 @@
 
 .section2__list {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 30px;
 }
 
@@ -175,6 +227,69 @@
     color: var(--color-main);
     filter: drop-shadow(0.10em 0.10em 0.1em var(--color-highlight));
 }
+
+@media (max-width: 1199.98px) {
+    .section2 {
+        padding: 80px 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .section2 {
+        padding: 80px 40px;
+    }
+
+    .section2__content {
+        text-align: center;
+    }
+
+    .section2__title {
+        font-size: 54px;
+    }
+
+    .section2__list {
+        justify-content: center;
+    }
+
+    .section2__item {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section2 {
+        padding: 80px 40px;
+    }
+
+    .section2__image {
+        width: 100%;
+    }
+
+    .section2__content {
+        margin-left: 0;
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section2__list {
+        justify-content: center;
+    }
+
+    .section2__item {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section2__title {
+        font-size: 36px;
+    }
+
+    .button {
+        margin-bottom: 0;
+    }
+}
 /* End section2 */
 
 /* Section 3 */
@@ -185,9 +300,11 @@
 
 .section3__wrap {
     display: flex;
+    flex-wrap: wrap;
     background: #FFF;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    overflow: hidden;
 }
 
 .section3__content {
@@ -221,6 +338,37 @@
     margin-top: -60px;
     margin-bottom: -5px;
     filter: grayscale(10%);
+}
+
+@media (max-width: 991.98px) {
+    .section3 {
+        padding: 80px 40px;
+    }
+
+    .section3__title {
+        font-size: 54px;
+    }
+
+    .section3__image img {
+        margin-top: 0;
+        border-radius: 0;
+    }
+}
+
+@media (max-width:767.98px) {
+    .section3 {
+        text-align: center;
+    }
+
+    .section3__content {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .section3__image {
+        width: 100%;
+        text-align: center;
+    }
 }
 /* End Section 3 */
 
@@ -265,6 +413,12 @@
 .section4__keyword span {
     margin-left: 4px;
 }
+
+@media (max-width: 991.98px) {
+    .section4 {
+        padding: 80px 40px;
+    }
+}
 /* End Section 4 */
 
 /* Section 5 */
@@ -294,11 +448,12 @@
 
 .section5__wrap {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .section5__box {
-    width: 40vh;
+    /* width: 40vh; */
     height: 700;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
@@ -323,6 +478,30 @@
 .section5__title {
     font-size: 24px;
     font-weight: 600;
+}
+
+@media (max-width: 991.98px) {
+    .section5 {
+        padding: 80px 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section5__wrap {
+        justify-content: center;
+    }
+
+    .section5__box {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section5__box {
+        margin-right: 0;
+        width: 60vw
+    }
 }
 /* End Section 5 */
 

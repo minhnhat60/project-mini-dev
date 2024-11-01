@@ -15,7 +15,7 @@ const Home = () => {
                         <div className="section1__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, assumenda aperiam.</div>
                         <div className="section1__button">
                             <ButtonServices />
-                            <ButtonAbout text={"Learn More"}/>
+                            <ButtonAbout text={"Learn More..."}/>
                         </div>
                     </div>
                 </div>
