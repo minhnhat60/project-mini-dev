@@ -484,6 +484,15 @@
     .section5 {
         padding: 80px 40px;
     }
+
+    .section5__wrap {
+        justify-content: center;
+    }
+
+    .section5__box {
+        margin: 0 20px 20px 20px;
+        width: 35vw
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -492,8 +501,7 @@
     }
 
     .section5__box {
-        margin-right: 20px;
-        margin-bottom: 20px;
+        margin: 0 20px 20px 20px;
     }
 }
 
