@@ -1,10 +1,18 @@
-import { FaFacebookF, FaGithub, FaInstagram, FaTelegramPlane } from "react-icons/fa";
+import { FaBars, FaFacebookF, FaGithub, FaInstagram, FaTelegramPlane } from "react-icons/fa";
+import { FaSquareXmark } from "react-icons/fa6";
 import { Link, NavLink, Outlet } from "react-router-dom";
 import ButtonScrollToTop from "../components/ButtonScrollToTop";
 import "./css/LayoutDefault.css";
 import logo from "./images/logo-refund.png";
+import { useState } from "react";
 
 const LayoutDefault = () => {
+    const [ showMenu, setShowMenu ] = useState(false);
+
+    const handleShowMenu = () => {
+        setShowMenu(!showMenu);
+    };
+
     return (
         <>
             <header className="header">
@@ -36,6 +44,16 @@ const LayoutDefault = () => {
                                 </Link>
                             </li>
                         </ul>
+                    </div>
+                    <div className={"header__bar " + (showMenu ? "header__bar-showMenu" : "")} onClick={handleShowMenu}>
+                        {showMenu ? <FaSquareXmark /> : <FaBars />}
+
+                        <div className="header__show-menu">
+                            <NavLink to="/" className='header__show-text'>Home</NavLink>
+                            <NavLink to="/about" className='header__show-text'>About</NavLink>
+                            <NavLink to="/services" className='header__show-text'>Services</NavLink>
+                            <NavLink to="/contact" className='header__show-text'>Contact</NavLink>
+                        </div>
                     </div>
                 </div>
             </header>
