@@ -86,7 +86,7 @@ const LayoutDefault = () => {
 
             <ButtonScrollToTop />
             <footer className='footer'>
-                Copyright 60F-Technology
+                Copyright 2024 60F - All Right Reserved
             </footer>
         </>
     )
