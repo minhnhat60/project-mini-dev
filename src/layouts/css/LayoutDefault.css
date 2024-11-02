@@ -336,6 +336,10 @@
 }
 
 @media (max-width: 991.98px) {
+    .footer__top {
+        padding: 80px;
+    }
+    
     .footer__top__content {
         width: 100%;
     }
@@ -347,7 +351,11 @@
     }
 }
 
-@media (max-width: 766.98px) {
+@media (max-width: 767.98px) {
+    .footer__top {
+        padding: 80px;
+    }
+
     .footer__top__map {
         width: 80%;
         height: 350px;
@@ -370,10 +378,6 @@
     .footer__top__map {
         width: 80%;
         height: 350px;
-    }
-
-    .footer__top__map iframe:hover {
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     }
 }
 
