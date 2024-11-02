@@ -391,11 +391,12 @@
 
     .footer__top__map {
         width: 80vw;
-        height: 360px;
+        height: 500px;
     }
 
     .footer__top__map iframe {
         width: 100%;
+        height: 100%;
         display: inline-block;
         box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
     }
