@@ -394,6 +394,11 @@
         width: 80vw;
         height: 360px;
     }
+
+    .footer__top__map iframe {
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    }
 }
 
 .footer {
