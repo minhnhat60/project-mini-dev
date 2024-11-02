@@ -366,6 +366,10 @@
         padding: 120px 40px;
     }
 
+    .footer__top__wrap {
+        flex-direction: column;
+    }
+
     .footer__top__content {
         width: 100%;
     }
