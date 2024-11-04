@@ -290,6 +290,10 @@
 }
 
 @media (max-width: 575.98px) {
+    .section3__services {
+        padding: 40px;
+    }
+
     .section3__services__form input {
         width: 100%;
     }
