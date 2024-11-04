@@ -4,8 +4,12 @@ import "./section.css";
 import pic1 from "./images/pic-1.jpg";
 import pic6 from "./images/pic-6.1.jpg";
 import { FaBalanceScale, FaCrosshairs, FaFire, FaIcons, FaRegHandLizard, FaRegHandshake, FaRoute } from "react-icons/fa";
+import { useEffect } from "react";
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <>
             {/* Section 1 */}
