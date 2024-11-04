@@ -23,7 +23,7 @@ const About = () => {
             <div className="section1__about">
                 <div className="container">
                     <div className="section1__about__image">
-                        <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/358715384_758302066301621_35452118781359205_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=c7wJd6Y5XWcQ7kNvgGPqBbd&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=AhOmU6lygPNNHCk7xBhUqKq&oh=00_AYDdVBlGMiAgqQ2PS3GgUGW30dtoijF-UEtLTdg1cJ8wfg&oe=6727E20B" alt="anh-1"/>
+                        <img src="https://kenh14cdn.com/203336854389633024/2022/11/10/photo-2-16680547888521522078253.jpg" alt="anh-1"/>
                         <div className="section1__about__desc">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
                         It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</div>
                     </div>
