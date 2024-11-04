@@ -533,6 +533,7 @@
 
 .section6__wrap img {
     border-radius: 50%;
+    opacity: 0.8;
     width: 120px;
     object-fit: cover;
 }

@@ -1,6 +1,8 @@
 import ButtonAbout from "../../components/ButtonAbout";
 import ButtonServices from "../../components/ButtonServices";
 import "./section.css";
+import pic1 from "./images/pic-1.jpg";
+import pic6 from "./images/pic-6.1.jpg";
 import { FaBalanceScale, FaCrosshairs, FaFire, FaIcons, FaRegHandLizard, FaRegHandshake, FaRoute } from "react-icons/fa";
 
 const Home = () => {
@@ -27,7 +29,7 @@ const Home = () => {
                 <div className="container">
                     <div className="section2__wrap">
                         <div className="section2__image">
-                            <img src="https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/450113498_1026314822176943_308841034370943739_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GrjhW9cmRAQQ7kNvgGsmX9a&_nc_zt=23&_nc_ht=scontent.fsgn2-4.fna&_nc_gid=AonaiP3WD-5zkiF1n_E9jiy&oh=00_AYAGDEN-zz_EC0Qa6MBBW69HF7ZtUtOvYfyJrIqCnh4PHQ&oe=6728214A" alt="anh-2"/> 
+                            <img src={pic1} alt="anh-2"/> 
                         </div>
                         <div className="section2__content">
                             <h2 className="section2__sub-title">Core Features</h2>
@@ -142,7 +144,7 @@ const Home = () => {
             <div className="section6">
                 <div className="container">
                     <div className="section6__wrap">
-                        <img src="https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/240520132_223710849596421_8162529490628608743_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=uSUSXHcKN3QQ7kNvgHgZhSi&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=AzzzFuiCs3KdzrGD-iPLPi5&oh=00_AYBQqH7tR3_Pmxo8No3xDD7h-Osy0qmtltj6icQ5lpSL7A&oe=67282817"  alt="anh-6"/>
+                        <img src={pic6}  alt="anh-6"/>
                         <div className="section6__desc wow bounceInLeft" data-wow-delay="2s">"Peace does not mean one where no noise, no trouble, and no toil. When we are in a storm, we still feel the calm of mind. That is the real meaning of peace!"</div>
                     </div>
                 </div>
