@@ -3,8 +3,7 @@ import { FaAcquisitionsIncorporated, FaMicrophone, FaTeamspeak } from "react-ico
 import { GiArchBridge, GiDuality, GiFlowerStar, GiUprising } from "react-icons/gi";
 import picture3 from "./images/pic-services.jpg";
 import { useEffect } from "react";
-import Swal from 'sweetalert2'
-import gifOk from "./images/gif-ok.gif";
+import Swal from 'sweetalert2';
 
 
 const ServicesCompany = () => {
@@ -32,18 +31,21 @@ const ServicesCompany = () => {
         }
 
         if(objectRegister) {
-            Swal.fire({
-                title: "Đã gửi đơn tư vấn, chúng tôi sẽ liên lạc với bạn!.",
-                width: 600,
-                padding: "3em",
-                color: "black",
-                background: "#fff url(/images/trees.png)",
-                backdrop: `
-                  rgba(0,0,123,0.4)
-                  url(${gifOk})
-                  left top
-                  no-repeat
-                `
+            const Toast = Swal.mixin({
+                toast: true,
+                position: "top-end",
+                width: 400,
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                  toast.onmouseenter = Swal.stopTimer;
+                  toast.onmouseleave = Swal.resumeTimer;
+                }
+              });
+              Toast.fire({
+                icon: "success",
+                title: "Chúng tôi sẽ phản hồi sớm"
               });
         }
     }
