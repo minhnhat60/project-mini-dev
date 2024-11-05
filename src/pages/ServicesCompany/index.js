@@ -36,7 +36,7 @@ const ServicesCompany = () => {
                 position: "top-end",
                 width: 400,
                 showConfirmButton: false,
-                timer: 3000,
+                timer: 2000,
                 timerProgressBar: true,
                 didOpen: (toast) => {
                   toast.onmouseenter = Swal.stopTimer;
