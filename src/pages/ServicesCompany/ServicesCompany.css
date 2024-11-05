@@ -235,6 +235,7 @@
 }
 
 .section3__services__form input {
+    outline: none;
     height: 30px;
     width: 45%;
     margin-bottom: 30px;

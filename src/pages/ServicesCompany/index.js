@@ -12,12 +12,14 @@ const ServicesCompany = () => {
       }, []);
 
     const handleFocus = (event) => {
+        event.preventDefault();
         event.target.style.backgroundColor = `aliceblue`;
         document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no');
 
         console.log(event);
     }
     const handleBlur = (event) => {
+        event.preventDefault();
         event.target.style.backgroundColor = "White";
         document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=1');
         console.log(event);
