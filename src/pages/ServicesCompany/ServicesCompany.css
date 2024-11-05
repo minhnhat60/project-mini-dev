@@ -304,3 +304,8 @@
 }
 
 /* End Section 3 */
+
+/*  */
+.swa12-confirm {
+    background: var(--color-main)!important;
+}

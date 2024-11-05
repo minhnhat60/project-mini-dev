@@ -3,6 +3,8 @@ import { FaAcquisitionsIncorporated, FaMicrophone, FaTeamspeak } from "react-ico
 import { GiArchBridge, GiDuality, GiFlowerStar, GiUprising } from "react-icons/gi";
 import picture3 from "./images/pic-services.jpg";
 import { useEffect } from "react";
+import Swal from 'sweetalert2'
+import gifOk from "./images/gif-ok.gif";
 
 
 const ServicesCompany = () => {
@@ -16,6 +18,37 @@ const ServicesCompany = () => {
     const handleBlur = (event) => {
         event.target.style.backgroundColor = "White";
     }
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log(event);
+
+        const objectRegister = {
+            name: event.target.elements.name.value,
+            email: event.target.elements.email.value,
+            phone: event.target.elements.phone.value,
+            address: event.target.elements.address.value,
+            description: event.target.elements.description.value,
+        }
+
+        if(objectRegister) {
+            Swal.fire({
+                title: "Đã gửi đơn tư vấn, chúng tôi sẽ liên lạc với bạn!.",
+                width: 600,
+                padding: "3em",
+                color: "black",
+                background: "#fff url(/images/trees.png)",
+                backdrop: `
+                  rgba(0,0,123,0.4)
+                  url(${gifOk})
+                  left top
+                  no-repeat
+                `
+              });
+        }
+    }
+
+
     return (
         <>
             {/* Section 1 */}
@@ -99,16 +132,16 @@ const ServicesCompany = () => {
                             <div className="section3__services__title"><GiFlowerStar />
                             <span>ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</span></div>
                             <hr />
-                            <form className="section3__services__form">
+                            <form className="section3__services__form" onSubmit={handleSubmit}>
                                 <input onFocus={handleFocus} onBlur={handleBlur} type="text" name="name" placeholder="Nhập tên..." required></input>
                                 <input onFocus={handleFocus} onBlur={handleBlur} type="email" name="email" placeholder="Email"></input>
                                 
                                 <input onFocus={handleFocus} onBlur={handleBlur} type="number" name="phone" placeholder="Số điện thoại"></input>
                                 <input onFocus={handleFocus} onBlur={handleBlur} name="address" placeholder="Địa chỉ"></input>
                                 
-                                <textarea onFocus={handleFocus} onBlur={handleBlur} rows={5} placeholder="Nội dung ngắn gọn"></textarea>
+                                <textarea onFocus={handleFocus} onBlur={handleBlur} name="description" rows={5} placeholder="Nội dung ngắn gọn"></textarea>
 
-                                <button className="button button__services">Tư vấn</button>
+                                <button className="button button__services" type="submit">Tư vấn</button>
                             </form>
                         </div>
                     </div>

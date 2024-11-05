@@ -169,12 +169,17 @@
 .section5__contact__button-call .call-button {
     display: inline-block;
     padding: 15px 25px;
-    background-color: var(--color-highlight); /* Màu xanh */
-    color: var(--color-text);
+    background-color: var(--color-main);
+    color: #FFF;
     border-radius: 5px;
     font-size: 18px;
     text-decoration: none;
     transition: background-color 0.3s;
+}
+
+.section5__contact__button-call .call-button:hover {
+    color: var(--color-main);
+    background: #FFF;
 }
 
 /* End Section 5 */
