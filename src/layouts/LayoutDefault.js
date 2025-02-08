@@ -31,11 +31,11 @@ const LayoutDefault = () => {
                     </div>
                     <div className='header__social'>
                         <ul>
-                            <li><Link target='_blank' to="https://www.facebook.com/profile.php?id=61557704135100">
+                            <li><Link target='_blank' to="https://www.facebook.com/lilminhnhat.inheart">
                                 <FaFacebookF className="header__social-icon" />
                                 </Link>
                             </li>
-                            <li><Link target='_blank' to="https://www.instagram.com/if_camap24">
+                            <li><Link target='_blank' to="https://www.instagram.com/ynot.mnhat_">
                                 <FaInstagram className="header__social-icon" />
                                 </Link>
                             </li>
@@ -72,13 +72,13 @@ const LayoutDefault = () => {
                             <hr />
                             <div className="footer__top__desc">Lựa chọn và tin tưởng chúng tôi</div>
                             <div className="footer__top__social">
-                                <Link target="_blank" to="https://www.facebook.com/profile.php?id=61557704135100"><FaFacebookF className="footer__top__icon" /></Link>
-                                <Link target="_blank" to="https://www.instagram.com/if_camap24/"><FaInstagram className="footer__top__icon" /></Link>
+                                <Link target="_blank" to="https://www.facebook.com/lilminhnhat.inheart"><FaFacebookF className="footer__top__icon" /></Link>
+                                <Link target="_blank" to="https://www.instagram.com/ynot.mnhat_"><FaInstagram className="footer__top__icon" /></Link>
                                 <Link><FaTelegramPlane className="footer__top__icon" /></Link>
                             </div>
                         </div>
                         <div className="footer__top__map">
-                            <iframe title="Bản đồ vị trí" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31336.722009616875!2d106.8116908743164!3d10.956555000000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174de89d5e34a1f%3A0x8ae0de15c48ec8ee!2zVHLGsOG7nW5nIFRIUFQgTMOqIFF1w70gxJDDtG4!5e0!3m2!1svi!2s!4v1730381374376!5m2!1svi!2s"></iframe>
+                            <iframe title="Bản đồ vị trí" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0940460537336!2d106.71471587583862!3d10.804108758680876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a6a42b71d3%3A0xd94ada49891bdbe8!2zVsO1IE9hbmgsIFBoxrDhu51uZyAyNSwgQsOsbmggVGjhuqFuaCwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1739011808948!5m2!1svi!2s"></iframe>
                         </div>
                     </div>
                 </div>

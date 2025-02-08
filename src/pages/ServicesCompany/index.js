@@ -108,14 +108,14 @@ const ServicesCompany = () => {
                             <div className="section2__services__item wow bounceInUp">
                                 <FaAcquisitionsIncorporated className="section2__services__icon" />
                                 <div className="section2__services__info">
-                                    <span className="section2__services__name">tft</span>
+                                    <span className="section2__services__name">chatting</span>
                                     <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
                                 </div>
                             </div>
                             <div className="section2__services__item wow bounceInUp">
                                 <GiArchBridge className="section2__services__icon" />
                                 <div className="section2__services__info">
-                                    <span className="section2__services__name">aram</span>
+                                    <span className="section2__services__name">Trip</span>
                                     <span className="section2__services__desc">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</span>
                                 </div>
                             </div>

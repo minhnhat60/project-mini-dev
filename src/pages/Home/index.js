@@ -71,7 +71,7 @@ const Home = () => {
                             <div className="section3__title">You can control direct from your mobile.</div>
                         </div>
                         <div className="section3__image">
-                            <img src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t1.6435-9/197873531_341128757362223_6795130401607966436_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1Ua0WwVa04oQ7kNvgFmtuHK&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AR2r4ewTxyci0C0H6RVzvN_&oh=00_AYBKxb3s1njlOMrKJ10-rkm5IvTQZjc1RxerOsR5V0d26A&oe=6749B79A" alt="anh-3" />
+                            <img src="https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/467307170_1115710389904052_4166183506723136533_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=a8hR1tgAkMgQ7kNvgHPRjQE&_nc_oc=Adjp8WoJhLSaeHKrH3H6tEQZgXtumAECy-_-rlCJ_b3hH9cDyOw3SnPBY2FWhtm6NJJU747_-cXCIF8yM98Da3dk&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=Ag9rIlYl1YAxpcJgSNfXTPO&oh=00_AYDtWS7vOOzyw2JLgO5oBQ-s6zX19zO86nIpecEWAzCwFA&oe=67AD1392" alt="anh-3" />
                         </div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@ const Home = () => {
                         </div>
                         <div className="section5__box">
                             <div className="section5__image">
-                                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/35329589_1801781806606273_7272532010508222464_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_ohc=WAzhJ5kwYX4Q7kNvgHv62qY&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=A9ba8OL4-ceFxgBwoJ2yKTx&oh=00_AYBkmoErimzSbEAb89TixeZGLiJ68r8jJyk1SZKCHOn6dg&oe=6749B67C" alt="anh-5"/>
+                                <img src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/416296011_916116103196816_3802186807996102221_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Oepr_vvOUN8Q7kNvgFd2Zg0&_nc_oc=AdimVQeft9xaGqXv0XJGt8cNmtZv-npUJYbAwxM0RN4QQ10DA7ECESwVJ8sfoAs8VrfkngSQCNQG9rxbVXUSxCd7&_nc_zt=23&_nc_ht=scontent.fsgn2-6.fna&_nc_gid=AIaGGRjUU45Z74QSPILAvYH&oh=00_AYBdiWYSXJlCRCMpU7lzunOyaCrhlFL5uPAZrxOABF3dTQ&oe=67AD0BE5" alt="anh-5"/>
                             </div>
                             <div className="section5__content">
                                 <div className="section5__sub-title">Software, Interface</div>
@@ -148,7 +148,7 @@ const Home = () => {
             <div className="section6">
                 <div className="container">
                     <div className="section6__wrap">
-                        <img src={pic6}  alt="anh-6"/>
+                        <img src='https://mixigaming.com/wp-content/uploads/2023/04/maxresdefault-5-324x235.jpg'  alt="anh-6"/>
                         <div className="section6__desc wow bounceInLeft" data-wow-delay="2s">"Peace does not mean one where no noise, no trouble, and no toil. When we are in a storm, we still feel the calm of mind. That is the real meaning of peace!"</div>
                     </div>
                 </div>

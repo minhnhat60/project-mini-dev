@@ -15,7 +15,7 @@ const Funkym = () => {
                 <div className="container-3">
                     <div className="info__wrap">
                         <div className="info__image">
-                            <img src="https://scontent.fsgn2-7.fna.fbcdn.net/v/t1.6435-9/189265002_1138880943263532_3727257176918407072_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-uiNZ19QBUQQ7kNvgGmf6Ok&_nc_zt=23&_nc_ht=scontent.fsgn2-7.fna&_nc_gid=AfN-y4-wf_vuDl6VY1CvVf1&oh=00_AYAFP3pO_bWYI2e1nVb1asjK7FTX4fIR-ajx-8J3eGHHcw&oe=67499B70" alt="funkym" />
+                            <img src="https://scontent.fsgn2-8.fna.fbcdn.net/v/t39.30808-6/293271503_566510254841655_6490689403880866583_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=DLc-tcCNZwEQ7kNvgGuankO&_nc_oc=AdgJBIq4wfrOUJvBwyk8QHsRZA4l6RVIgAxNB6gM5BqJxWg3exUa0U-MLD8H4tKoK31BVo5fMw3CXaY56X1LWxR7&_nc_zt=23&_nc_ht=scontent.fsgn2-8.fna&_nc_gid=A0QjmJgOsUfC1kxCNxA9K8e&oh=00_AYBoQUqoiRG73WF1x2ttZhRFfhN0rCtyeOFPDMumBv6hGg&oe=67AD16D5" alt="funkym" />
                         </div>
                         <div className="info__content">
                             <div className="info__career">Streamer</div>
